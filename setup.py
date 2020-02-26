@@ -1,18 +1,18 @@
-#!/usr/bin/env python
+#!/Users/YKK/Documents/VirutalPython/event-detector/bin/python
 
 import os
 
 from setuptools import setup, find_packages
 
-__version__ = "0.9.1"
+__version__ = "0.9"
 
+# noinspection PyPackageRequirements
 setup(name='eventdetector',
       version=__version__,
       description='Deep Learning models for automatic gait event annotation',
       author='Lukasz Kidzinski',
       author_email='lukasz.kidzinski@gmail.com',
       url='http://github.com/kidzik/event-detector',
-      downlnoad_url='https://github.com/kidzik/event-detector/archive/v0.9.tar.gz',
       license='Apache 2.0',
       packages=find_packages(),
       package_data={},

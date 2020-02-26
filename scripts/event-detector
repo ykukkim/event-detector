@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/Users/YKK/Documents/VirutalPython/event-detector/bin/python
 
 import os
 import io
@@ -17,6 +17,7 @@ parser.add_argument('filename_out', metavar='filename_out', help="A c3d file to 
 #                     type=str, choices=['neural','velocity','coordinate'],default="neural")
 
 args = parser.parse_args()
-
 process(args.filename_in, args.filename_out)
-    
+# filename_in = '/Users/YKK/Documents/GitHub/event-detector/Test.c3d'
+# filename_out = '/Users/YKK/Documents/GitHub/event-detector/TestOutput.c3d'
+# process(filename_in, filename_out)
